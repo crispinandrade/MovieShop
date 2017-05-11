@@ -1,0 +1,371 @@
+
+
+h1, h2 {
+    text-align: center;
+    color: #76B6A2;   
+}
+
+header {
+   background-color:white;
+} 
+
+header img{
+   float: left;
+   margin: 10px 0 0 0;
+}
+
+header h1 {
+   display:inline-block;
+   margin-left: 100px;
+   font-size: 50px;
+   text-align: center;
+}  
+
+nav { 
+   text-align: center;
+   background-color: #76B6A2;      
+}
+nav li, nav ul {
+    display: inline;
+}
+
+nav a:link{ 
+   color: darkslategray;
+   background-color: #E1DFA2;
+   text-decoration: none;
+   margin: 5px 1px 3px 0px;   
+   line-height: 40px;
+   display: inline-block;
+   height: 40px;
+   width: 120px;
+   font-size: 20px;
+   font-family: Verdana, Helvetica, Arial, sans-serif;  
+   -moz-border-top-left-radius: 10px;
+   border-top-left-radius: 10px;
+   -moz-border-top-right-radius: 10px;
+   border-top-right-radius: 10px;    
+}
+
+nav a:visited{ 
+   color: darkslategray;
+   background-color: #E1DFA2;
+   -moz-border-top-left-radius: 10px;
+   border-top-left-radius: 10px;
+   -moz-border-top-right-radius: 10px;
+   border-top-right-radius: 10px;  
+}
+
+nav a:focus, nav a.currentpage{ 
+    color: slategray;
+    background-color: #F3F2CC;
+}
+
+nav a:hover{ 
+    color: black;
+    background-color: yellow;
+}
+
+nav a:active{
+    color: red;
+}
+
+footer {
+   clear:both;
+   text-align: center;
+   font-family: Helvetica, Verdana, Arial, sans-serif;
+   font-size: 75%; 
+}   
+
+legend {
+   font-weight:bold; 
+   color: red;
+}
+
+ fieldset {
+   border: 2px solid red;
+}
+
+.moviePoster{
+   float: right;
+   margin: 5px;
+}
+
+.movieBold{
+  font-weight:bold;
+}
+
+.movieHeading {
+   line-height:150%;
+   font-weight:bold;
+}
+#contactBlock {
+   line-height: 1.5em;
+   width: 500px;
+   margin: auto;
+}
+
+#contactBlock label {
+   float:left;
+   text-align: right;
+   width:100px;
+   font-weight:bold;
+   margin-right:10px;
+}
+
+#wrapper {
+   background-image: url(../imgs/false_column360.png);
+   background-repeat: repeat-y;
+   background-color: #F3F2CC;
+   min-width:1000px;
+   margin: 0 auto 0 auto;
+   width:80%;
+}
+
+#leftcol {
+   overflow: hidden;
+   float: left;
+   width: 340px;
+   padding: 0 10px 20px 10px;
+   background-color: #E1DFA2;
+   height: 900px;
+}
+
+#rightcol {
+   margin-left:360px;
+   min-width: 595px;
+   background-color: #F3F2CC;
+   padding: 0 10px 0 10px;
+   font-family: Helvetica, Verdana, Arial, sans-serif;
+ }
+#expert {
+   margin-bottom: 30px;
+}
+ 
+#expert_info {
+   float:right;
+   margin: 0 20px 30px 20px;
+}
+#map-canvas {
+   width: 550px;
+   height: 425px;
+   background-color: #CCC;
+   margin: 0 auto;
+}
+ 
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactCentered {
+   text-align:center;
+   font-style:italic;
+}
+   
+
+.articleBody {
+    padding-left: 10px;
+    margin: 0 auto;
+} 
+
+.articleBody > p::first-letter {
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.shopTitle{
+   font-size: 18pt;
+   font-weight: bold;
+}   
+
+.articleBody p {
+    line-height: 1.5em;
+}  
+
+.references {
+   margin-top: 40px;
+   margin-bottom:40px;
+}
+
+/* Following is for joinform only */
+
+#compnote p{
+    font-size: 16px;
+    margin-bottom: 3px;
+    text-align:right;
+    color:red;
+}
+
+#joinform  p{
+    line-height: 1em;
+    margin-bottom: 0;
+}
+
+#joinform fieldset {
+   border: 2px solid green;
+   margin-bottom:20px;
+}
+
+#joinform legend {
+   font-style: italic;
+   font-weight: bold;
+   color: green;
+}
+
+#joinform label{
+   float:left;
+	width: 130px; 
+	display: block; 
+	text-align: left; 
+	padding-right: 10px;
+   margin-top: 5px; 
+}
+
+#joinform input {
+   margin-top: 5px; 
+} 
+
+#joinform select{
+   margin-top: 5px; 
+} 
+
+.requiredmarker {
+   font-size: 16px;
+   color:red;
+} 
+
+.popup {
+    display: none;
+    background-color: #76B6A2;
+    padding: 0 8px 8px 8px;
+    color: black;
+}  
+
+#formbuttons {
+   margin-left: 10px;
+   margin-bottom:20px;
+}
+
+/* following for login form (user & admin) only */
+#login fieldset {
+   border: 2px solid green;
+   margin-bottom:20px;
+}
+
+#login legend {
+   font-style: italic;
+   font-weight: bold;
+   color: green;
+}
+
+#login label{
+   float:left;
+	width: 130px; 
+	display: block; 
+	text-align: left; 
+	padding-right: 10px;
+   margin-top: 5px; 
+}
+
+#login input {
+   margin-top: 5px; 
+} 
+.centre {
+   text-align: center;
+   color:#76B6A2;
+   font-weight:bold;
+}
+
+/* for admin page */
+
+
+#admin_wrapper {
+   background-image: url(../imgs/false_column.png);
+   background-repeat: repeat-y;
+   background-color: #F3F2CC;
+   min-width:1000px;
+   margin: 0 auto 0 auto;
+   width:80%;
+}
+
+#admin_leftcol {
+   float: left;
+   min-height:900px;
+   width: 150px;
+   padding: 0px 5px 5px 5px;
+   background-color: #E1DFA2;   
+}
+
+#admin_rightcol {
+   overflow: hidden;
+   margin-left:150px;
+   min-width: 820px;
+   background-color: #F3F2CC;
+   padding: 0px 10px 0px 10px;
+   font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+#login_centered {
+   width:500px;
+   margin: 30px auto 0 auto;
+}
+
+#green {
+   width:100%;
+   background-color: #76B6A2;
+   height:50px;
+}
+
+
+.admin_nav { 
+   text-align: center;
+   background-color: #E1DFA2;
+   padding-bottom: 3px
+}
+.admin_nav li, nav ul {
+    display: block;
+    margin-left: -40px;
+}
+
+.admin_nav a:link{ 
+   color: white;
+   background-color: #76B6A2; 
+   text-decoration: none;
+   margin: 3px 1px 0 0;    
+   line-height: 40px;
+   display: block;
+   height: 40px;
+   width: 150px;
+   font-size: 12px;
+   font-family: Verdana, Helvetica, Arial, sans-serif;  
+   -moz-border-radius: 10px;
+   border-radius: 10px;  
+}
+
+.admin_nav a:visited{ 
+   color: white;
+   background-color: #76B6A2;
+   -moz-border-top-left-radius: 10px;
+   border-top-left-radius: 10px;
+   -moz-border-top-right-radius: 10px;
+   border-top-right-radius: 10px;  
+}
+
+.admin_nav a:focus { 
+    color: slategray;
+    background-color: #F3F2CC;
+}
+
+.admin_nav a:hover{ 
+    color: black;
+    background-color: green;
+}
+
+.admin_nav a:active{
+    color: red;
+}
+
+.green {
+   color: #76B6A2;
+}
